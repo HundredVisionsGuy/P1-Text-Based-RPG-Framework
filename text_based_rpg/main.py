@@ -1,7 +1,7 @@
 """ This is the main program for our game. """
 
-import character
+from character import Character
 
 if __name__ == "__main__":
-    hero = character.Character("phred")
+    hero = Character("phred")
     print(hero.name)
